@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "gitlab-ci-local": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702728132,
+        "narHash": "sha256-8UeDwzeKBYefsqT6Dvj6KIIfU4ncpzWyoH0CANjPOek=",
+        "owner": "firecow",
+        "repo": "gitlab-ci-local",
+        "rev": "eebf6fd91582e48e36f92aff3feeef8dce574071",
+        "type": "github"
+      },
+      "original": {
+        "owner": "firecow",
+        "repo": "gitlab-ci-local",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1702780665,
+        "narHash": "sha256-93+JCoNylFZv5pKN9dG1ypTBt/pfZ508fwsM3YwDvqM=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "934c255ae43fdd2bee09d071d009113686bc436b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "gitlab-ci-local": "gitlab-ci-local",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
