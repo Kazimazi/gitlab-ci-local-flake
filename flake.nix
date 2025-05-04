@@ -21,7 +21,7 @@
           src = gitlab-ci-local;
 
           buildInputs = with pkgs; [
-            nodejs_18
+            nodejs
           ];
 
           # Skipping git command in npm run build script
